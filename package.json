@@ -1,0 +1,31 @@
+{
+  "name": "leetcode",
+  "version": "1.0.0",
+  "description": "Solutions for leetcode challenges",
+  "main": "index.js",
+  "scripts": {
+    "solution": "npx ts-node src/main.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  },
+  "prettier": {
+    "printWidth": 100,
+    "semi": false,
+    "bracketSameLine": false,
+    "trailingComma": "all",
+    "tabWidth": 2,
+    "singleQuote": false,
+    "jsxSingleQuote": false,
+    "bracketSpacing": true,
+    "arrowParens": "always",
+    "singleAttributePerLine": false
+  },
+  "devDependencies": {
+    "prettier": "3.3.3"
+  }
+}
