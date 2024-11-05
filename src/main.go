@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	design_hit_counter_362.Solution()
+	design_hit_counter_362.Test()
 }

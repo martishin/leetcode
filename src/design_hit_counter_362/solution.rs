@@ -41,7 +41,7 @@ impl HitCounter {
  * obj.hit(timestamp);
  * let ret_2: i32 = obj.get_hits(timestamp);
  */
-pub fn solve() {
+pub fn test() {
     let mut obj = HitCounter::new();
     obj.hit(1);
     obj.hit(2);

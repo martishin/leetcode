@@ -31,7 +31,7 @@ func (this *HitCounter) cleanOldHits(currentTime int) {
 	this.hits = this.hits[i:]
 }
 
-func Solution() {
+func Test() {
 	counter := Constructor()
 	counter.Hit(1)
 	counter.Hit(2)

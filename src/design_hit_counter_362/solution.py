@@ -18,7 +18,7 @@ class HitCounter:
             self.hits.popleft()
 
 
-def solve():
+def test():
     counter = HitCounter()
     counter.hit(1)
     counter.hit(2)

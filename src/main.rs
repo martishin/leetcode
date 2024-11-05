@@ -4,5 +4,5 @@ mod design_hit_counter_362 {
 }
 
 fn main() {
-    design_hit_counter_362::solution::solve();
+    design_hit_counter_362::solution::test();
 }

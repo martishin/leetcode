@@ -22,7 +22,7 @@ class HitCounter {
   }
 }
 
-export function solution(): void {
+export function test(): void {
   const counter = new HitCounter()
   counter.hit(1)
   counter.hit(2)
