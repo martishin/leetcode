@@ -1,8 +1,8 @@
 #![allow(dead_code)]
-mod design_tic_tac_toe_348 {
-    pub mod solution;
+mod closest_leaf_in_a_binary_tree_742 {
+    pub mod solution_graph;
 }
 
 fn main() {
-    design_tic_tac_toe_348::solution::test();
+    closest_leaf_in_a_binary_tree_742::solution_graph::test();
 }

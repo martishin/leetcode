@@ -1,8 +1,8 @@
-import design_tic_tac_toe_348.solution
+import closest_leaf_in_a_binary_tree_742.solution_graph
 
 
 def main():
-    design_tic_tac_toe_348.solution.test()
+    closest_leaf_in_a_binary_tree_742.solution_graph.test()
 
 
 if __name__ == "__main__":
