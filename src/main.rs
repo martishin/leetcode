@@ -1,8 +1,8 @@
 #![allow(dead_code)]
-mod design_hit_counter_362 {
+mod design_tic_tac_toe_348 {
     pub mod solution;
 }
 
 fn main() {
-    design_hit_counter_362::solution::test();
+    design_tic_tac_toe_348::solution::test();
 }

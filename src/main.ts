@@ -1,7 +1,7 @@
-import { test } from "./design_hit_counter_362/solution"
+import { test } from "./design_tic_tac_toe_348/solution";
 
 function main() {
-  test()
+  test();
 }
 
-main()
+main();

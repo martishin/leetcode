@@ -1,8 +1,8 @@
-import design_hit_counter_362.solution
+import design_tic_tac_toe_348.solution
 
 
 def main():
-    design_hit_counter_362.solution.test()
+    design_tic_tac_toe_348.solution.test()
 
 
 if __name__ == "__main__":
