@@ -1,8 +1,9 @@
 #![allow(dead_code)]
-mod closest_leaf_in_a_binary_tree_742 {
-    pub mod solution_graph;
+mod house_robber_198 {
+    pub mod solution_dp;
+    pub mod solution_recursion;
 }
 
 fn main() {
-    closest_leaf_in_a_binary_tree_742::solution_graph::test();
+    house_robber_198::solution_dp::test();
 }

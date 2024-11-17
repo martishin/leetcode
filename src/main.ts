@@ -1,4 +1,4 @@
-import { test } from "./closest_leaf_in_a_binary_tree_742/solution_closest_leaf";
+import { test } from "./house_robber_198/solution_recursion";
 
 function main() {
   test();

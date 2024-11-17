@@ -1,8 +1,8 @@
-import closest_leaf_in_a_binary_tree_742.solution_graph
+import house_robber_198.solution_recursion
 
 
 def main():
-    closest_leaf_in_a_binary_tree_742.solution_graph.test()
+    house_robber_198.solution_recursion.test()
 
 
 if __name__ == "__main__":
