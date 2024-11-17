@@ -1,9 +1,8 @@
 #![allow(dead_code)]
-mod house_robber_198 {
-    pub mod solution_dp;
-    pub mod solution_recursion;
+mod time_based_key_value_store_981 {
+    pub mod solution;
 }
 
 fn main() {
-    house_robber_198::solution_dp::test();
+    time_based_key_value_store_981::solution::test();
 }
