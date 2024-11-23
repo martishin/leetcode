@@ -1,10 +1,15 @@
+interface Pair {
+  num: number;
+  idx: number;
+}
+
 function twoSum(nums: number[], target: number): number[] {
-  const numsWithIndices: [number, number][] = nums
-    .map((num, idx): [number, number] => [num, idx])
-    .sort((a, b) => a[0] - b[0]);
+  const numsWithIndices: Pair[] = nums
+    .map((num, idx) => ({ num, idx }))
+    .sort((a, b) => a.num - b.num);
 
   for (let idx = 0; idx < numsWithIndices.length; idx++) {
-    const [num, originalIdx] = numsWithIndices[idx];
+    const { num, idx: originalIdx } = numsWithIndices[idx];
     const find = target - num;
 
     let l = idx + 1;
@@ -13,9 +18,9 @@ function twoSum(nums: number[], target: number): number[] {
     while (l < r) {
       const m = Math.floor((l + r) / 2);
 
-      if (numsWithIndices[m][0] === find) {
-        return [originalIdx, numsWithIndices[m][1]];
-      } else if (numsWithIndices[m][0] < find) {
+      if (numsWithIndices[m].num === find) {
+        return [originalIdx, numsWithIndices[m].idx];
+      } else if (numsWithIndices[m].num < find) {
         l = m + 1;
       } else {
         r = m;

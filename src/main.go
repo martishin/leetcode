@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	two_sum_1.TestHashTable()
+	two_sum_1.TestIteration()
 }
