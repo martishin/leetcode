@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	reverse_linked_list_206.Test()
+	reverse_linked_list_206.TestRecursive()
 }

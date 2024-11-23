@@ -2,13 +2,13 @@ package reverse_linked_list_206
 
 import "fmt"
 
-// Definition for singly-linked list.
+// ListNode Definition for singly-linked list.
 type ListNode struct {
 	Val  int
 	Next *ListNode
 }
 
-func reverseList(head *ListNode) *ListNode {
+func reverseListIterative(head *ListNode) *ListNode {
 	current := head
 	var prev *ListNode
 
@@ -33,7 +33,7 @@ func printList(head *ListNode) {
 	fmt.Println()
 }
 
-func Test() {
+func TestIterative() {
 	head := &ListNode{
 		Val: 1,
 		Next: &ListNode{
@@ -51,6 +51,6 @@ func Test() {
 		},
 	}
 
-	newHead := reverseList(head)
+	newHead := reverseListIterative(head)
 	printList(newHead)
 }
