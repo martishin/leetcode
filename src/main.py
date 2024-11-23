@@ -1,8 +1,8 @@
-import reverse_linked_list_206.solution_recursive
+import two_sum_1.solution_hash_table
 
 
 def main():
-    reverse_linked_list_206.solution_recursive.test()
+    two_sum_1.solution_hash_table.test()
 
 
 if __name__ == "__main__":

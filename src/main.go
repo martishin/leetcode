@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/martishin/leetcode/src/reverse_linked_list_206"
+	"github.com/martishin/leetcode/src/two_sum_1"
 )
 
 func main() {
-	reverse_linked_list_206.TestRecursive()
+	two_sum_1.TestHashTable()
 }

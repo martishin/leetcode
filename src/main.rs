@@ -1,8 +1,8 @@
 #![allow(dead_code)]
-mod reverse_linked_list_206 {
-    pub mod solution_recursive;
+mod two_sum_1 {
+    pub mod solution_hash_table;
 }
 
 fn main() {
-    reverse_linked_list_206::solution_recursive::test();
+    two_sum_1::solution_hash_table::test();
 }

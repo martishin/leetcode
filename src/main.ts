@@ -1,4 +1,4 @@
-import { test } from "./reverse_linked_list_206/solution_recursive";
+import { test } from "./two_sum_1/solution_hash_table";
 
 function main() {
   test();
