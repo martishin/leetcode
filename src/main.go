@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/martishin/leetcode/src/time_based_key_value_store_981"
+	"github.com/martishin/leetcode/src/reverse_linked_list_206"
 )
 
 func main() {
-	time_based_key_value_store_981.Test()
+	reverse_linked_list_206.Test()
 }

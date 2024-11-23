@@ -1,8 +1,8 @@
-import time_based_key_value_store_981.solution
+import reverse_linked_list_206.solution
 
 
 def main():
-    time_based_key_value_store_981.solution.test()
+    reverse_linked_list_206.solution.test()
 
 
 if __name__ == "__main__":
