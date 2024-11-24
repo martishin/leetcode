@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/martishin/leetcode/src/house_robber_ii_213"
+	"github.com/martishin/leetcode/src/design_tic_tac_toe_348"
 )
 
 func main() {
-	house_robber_ii_213.Test()
+	design_tic_tac_toe_348.Test()
 }
