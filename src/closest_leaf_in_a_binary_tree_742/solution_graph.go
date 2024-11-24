@@ -4,17 +4,22 @@ import (
 	"fmt"
 )
 
-func findClosestLeaf(root *TreeNode, k int) int {
-	// Map to represent the undirected graph
-	graph := make(map[*TreeNode][]*TreeNode)
-	var targetNode *TreeNode
+type NodeParentPair struct {
+	node   *TreeNode
+	parent *TreeNode
+}
 
-	// Build the graph and find the target node
-	var buildGraph func(node, parent *TreeNode)
-	buildGraph = func(node, parent *TreeNode) {
-		if node == nil {
-			return
-		}
+func findClosestLeaf(root *TreeNode, k int) int {
+	graph := make(map[*TreeNode][]*TreeNode)
+
+	var targetNode *TreeNode
+	stack := []NodeParentPair{{node: root, parent: nil}}
+
+	for len(stack) > 0 {
+		pair := stack[len(stack)-1]
+		stack = stack[:len(stack)-1]
+
+		node, parent := pair.node, pair.parent
 
 		if parent != nil {
 			graph[node] = append(graph[node], parent)
@@ -25,17 +30,15 @@ func findClosestLeaf(root *TreeNode, k int) int {
 			targetNode = node
 		}
 
-		buildGraph(node.Left, node)
-		buildGraph(node.Right, node)
+		if node.Right != nil {
+			stack = append(stack, NodeParentPair{node: node.Right, parent: node})
+		}
+
+		if node.Left != nil {
+			stack = append(stack, NodeParentPair{node: node.Left, parent: node})
+		}
 	}
 
-	buildGraph(root, nil)
-
-	if targetNode == nil {
-		return -1
-	}
-
-	// Perform BFS to find the closest leaf
 	queue := []*TreeNode{targetNode}
 	visited := make(map[*TreeNode]bool)
 	visited[targetNode] = true
@@ -44,7 +47,6 @@ func findClosestLeaf(root *TreeNode, k int) int {
 		node := queue[0]
 		queue = queue[1:]
 
-		// Check if the node is a leaf node
 		if node.Left == nil && node.Right == nil {
 			return node.Val
 		}
@@ -57,7 +59,6 @@ func findClosestLeaf(root *TreeNode, k int) int {
 		}
 	}
 
-	// In case the root itself is the only node and is a leaf
 	if root.Left == nil && root.Right == nil && root.Val == k {
 		return root.Val
 	}

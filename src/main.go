@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/martishin/leetcode/src/design_tic_tac_toe_348"
+	"github.com/martishin/leetcode/src/closest_leaf_in_a_binary_tree_742"
 )
 
 func main() {
-	design_tic_tac_toe_348.Test()
+	closest_leaf_in_a_binary_tree_742.Test()
 }
