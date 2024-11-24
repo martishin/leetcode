@@ -1,8 +1,8 @@
 #![allow(dead_code)]
-mod two_sum_1 {
-    pub mod solution_iteration;
+mod house_robber_ii_213 {
+    pub mod solution;
 }
 
 fn main() {
-    two_sum_1::solution_iteration::test();
+    house_robber_ii_213::solution::test();
 }

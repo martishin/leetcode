@@ -1,32 +1,34 @@
-use std::cmp::max;
+pub struct Solution;
 
-pub struct SolutionDp;
-
-impl SolutionDp {
+impl Solution {
     pub fn rob(nums: Vec<i32>) -> i32 {
-        let n = nums.len();
-
-        if n == 0 {
-            return 0;
-        } else if n == 1 {
+        let len = nums.len();
+        if len == 1 {
             return nums[0];
         }
 
-        let mut dp = vec![0; n + 1];
-
-        dp[0] = nums[0];
-        dp[1] = max(nums[0], nums[1]);
-
-        for i in 2..n {
-            dp[i] = max(dp[i - 1], dp[i - 2] + nums[i]);
+        if len == 2 {
+            return nums[0].max(nums[1]);
         }
 
-        dp[n - 1]
+        Self::rob_helper(&nums[1..]).max(Self::rob_helper(&nums[..len - 1]))
+    }
+
+    fn rob_helper(nums: &[i32]) -> i32 {
+        let mut second_last = nums[0];
+        let mut last = nums[0].max(nums[1]);
+
+        for &num in nums.iter().skip(2) {
+            let current = last.max(second_last + num);
+            second_last = last;
+            last = current;
+        }
+
+        last
     }
 }
 
 pub fn test() {
-    println!("{}", SolutionDp::rob(vec![1, 2, 3, 1]));
-    println!("{}", SolutionDp::rob(vec![2, 7, 9, 3, 1]));
-    println!("{}", SolutionDp::rob(vec![]));
+    println!("{}", Solution::rob(vec![1, 2, 3, 1]));
+    println!("{}", Solution::rob(vec![2, 7, 9, 3, 1]));
 }
