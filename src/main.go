@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/martishin/leetcode/src/two_sum_1"
+	"github.com/martishin/leetcode/src/house_robber_ii_213"
 )
 
 func main() {
-	two_sum_1.TestIteration()
+	house_robber_ii_213.Test()
 }
