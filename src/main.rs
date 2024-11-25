@@ -1,8 +1,8 @@
 #![allow(dead_code)]
-mod house_robber_ii_213 {
-    pub mod solution;
+mod snapshot_array_1146 {
+    pub mod solution_binary_search;
 }
 
 fn main() {
-    house_robber_ii_213::solution::test();
+    snapshot_array_1146::solution_binary_search::test();
 }

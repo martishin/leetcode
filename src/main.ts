@@ -1,4 +1,4 @@
-import { test } from "./house_robber_ii_213/solution";
+import { test } from "./snapshot_array_1146/solution";
 
 function main() {
   test();
