@@ -11,4 +11,3 @@ plugins {
 }
 
 rootProject.name = "leetcode"
-include("src")
