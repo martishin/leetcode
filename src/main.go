@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/martishin/leetcode/src/snapshot_array_1146"
+	"github.com/martishin/leetcode/src/ip_to_cidr_751"
 )
 
 func main() {
-	snapshot_array_1146.Test()
+	ip_to_cidr_751.Test()
 }
