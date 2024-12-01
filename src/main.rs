@@ -1,8 +1,8 @@
 #![allow(dead_code)]
-mod snapshot_array_1146 {
-    pub mod solution_binary_search;
+mod longest_palindrome_by_concatenating_two_letter_words_2131 {
+    pub mod solution;
 }
 
 fn main() {
-    snapshot_array_1146::solution_binary_search::test();
+    longest_palindrome_by_concatenating_two_letter_words_2131::solution::test();
 }

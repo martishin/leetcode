@@ -1,4 +1,4 @@
-import { test } from "./snapshot_array_1146/solution";
+import { test } from "./longest_palindrome_by_concatenating_two_letter_words_2131/solution";
 
 function main() {
   test();
