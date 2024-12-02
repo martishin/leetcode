@@ -1,8 +1,8 @@
 #![allow(dead_code)]
-mod longest_palindrome_by_concatenating_two_letter_words_2131 {
-    pub mod solution;
+mod ip_to_cidr_751 {
+    pub mod solution_fp;
 }
 
 fn main() {
-    longest_palindrome_by_concatenating_two_letter_words_2131::solution::test();
+    ip_to_cidr_751::solution_fp::test();
 }
