@@ -1,8 +1,8 @@
-import ip_to_cidr_751.solution
+import minimum_absolute_difference_between_elements_with_constraint_2817.solution_multiset
 
 
 def main():
-    ip_to_cidr_751.solution.test()
+    minimum_absolute_difference_between_elements_with_constraint_2817.solution_multiset.test()
 
 
 if __name__ == "__main__":

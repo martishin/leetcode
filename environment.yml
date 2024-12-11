@@ -24,6 +24,7 @@ dependencies:
   - python=3.11.10
   - readline=8.2
   - setuptools=75.1.0
+  - sortedcontainers=2.4.0
   - sqlite=3.45.3
   - tk=8.6.14
   - tomlkit=0.13.2
@@ -33,4 +34,4 @@ dependencies:
   - wheel=0.44.0
   - xz=5.4.6
   - zlib=1.2.13
-prefix: /Users/monkey/miniconda3/envs/leetcode
+prefix: /opt/miniconda3/envs/leetcode
