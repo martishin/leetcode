@@ -1,8 +1,8 @@
 #![allow(dead_code)]
-mod longest_continuous_subarray_with_absolute_diff_less_than_or_equal_to_limit_1438 {
-    pub mod solution_multiset;
+mod minimum_absolute_difference_between_elements_with_constraint_2817 {
+    pub mod solution_two_heaps;
 }
 
 fn main() {
-    longest_continuous_subarray_with_absolute_diff_less_than_or_equal_to_limit_1438::solution_multiset::test();
+    minimum_absolute_difference_between_elements_with_constraint_2817::solution_two_heaps::test();
 }
