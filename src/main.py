@@ -1,8 +1,8 @@
-import minimum_absolute_difference_between_elements_with_constraint_2817.solution_dsu
+import finding_pairs_with_a_certain_sum_1865.solution
 
 
 def main():
-    minimum_absolute_difference_between_elements_with_constraint_2817.solution_dsu.test()
+    finding_pairs_with_a_certain_sum_1865.solution.test()
 
 
 if __name__ == "__main__":

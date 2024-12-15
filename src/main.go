@@ -1,7 +1,7 @@
 package main
 
-import "github.com/martishin/leetcode/src/minimum_absolute_difference_between_elements_with_constraint_2817"
+import "github.com/martishin/leetcode/src/finding_pairs_with_a_certain_sum_1865"
 
 func main() {
-	minimum_absolute_difference_between_elements_with_constraint_2817.TestHeap()
+	finding_pairs_with_a_certain_sum_1865.Test()
 }
