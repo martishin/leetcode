@@ -1,8 +1,8 @@
 #![allow(dead_code)]
-mod finding_pairs_with_a_certain_sum_1865 {
-    pub mod solution;
+mod longest_continuous_subarray_with_absolute_diff_less_than_or_equal_to_limit_1438 {
+    pub mod solution_two_heaps;
 }
 
 fn main() {
-    finding_pairs_with_a_certain_sum_1865::solution::test();
+    longest_continuous_subarray_with_absolute_diff_less_than_or_equal_to_limit_1438::solution_two_heaps::test();
 }
