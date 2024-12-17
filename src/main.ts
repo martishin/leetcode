@@ -1,4 +1,4 @@
-import { test } from "./finding_pairs_with_a_certain_sum_1865/soluton";
+import { test } from "./rotating_the_box_1861/solution";
 
 function main() {
   test();

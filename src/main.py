@@ -1,8 +1,8 @@
-import longest_continuous_subarray_with_absolute_diff_less_than_or_equal_to_limit_1438.solution_two_deques
+import rotating_the_box_1861.solution
 
 
 def main():
-    longest_continuous_subarray_with_absolute_diff_less_than_or_equal_to_limit_1438.solution_two_deques.test()
+    rotating_the_box_1861.solution.test()
 
 
 if __name__ == "__main__":

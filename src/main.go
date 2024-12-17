@@ -1,7 +1,7 @@
 package main
 
-import "github.com/martishin/leetcode/src/longest_continuous_subarray_with_absolute_diff_less_than_or_equal_to_limit_1438"
+import "github.com/martishin/leetcode/src/rotating_the_box_1861"
 
 func main() {
-	longest_continuous_subarray_with_absolute_diff_less_than_or_equal_to_limit_1438.TestTwoHeaps()
+	rotating_the_box_1861.Test()
 }
