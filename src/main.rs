@@ -1,8 +1,8 @@
 #![allow(dead_code)]
-mod rotating_the_box_1861 {
+mod candy_135 {
     pub mod solution;
 }
 
 fn main() {
-    rotating_the_box_1861::solution::test();
+    candy_135::solution::test();
 }
