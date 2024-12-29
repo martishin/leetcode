@@ -1,8 +1,8 @@
 #![allow(dead_code)]
-mod trapping_rain_water_42 {
+mod length_of_last_word_58 {
     pub mod solution;
 }
 
 fn main() {
-    trapping_rain_water_42::solution::test();
+    length_of_last_word_58::solution::test();
 }
