@@ -1,8 +1,8 @@
 #![allow(dead_code)]
-mod candy_135 {
+mod trapping_rain_water_42 {
     pub mod solution;
 }
 
 fn main() {
-    candy_135::solution::test();
+    trapping_rain_water_42::solution::test();
 }
