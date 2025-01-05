@@ -1,7 +1,7 @@
 package main
 
-import "github.com/martishin/leetcode/src/rotating_the_box_1861"
+import "github.com/martishin/leetcode/src/construct_binary_tree_from_inorder_and_postorder_traversal_106"
 
 func main() {
-	rotating_the_box_1861.Test()
+	construct_binary_tree_from_inorder_and_postorder_traversal_106.TestMap()
 }
