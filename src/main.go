@@ -1,7 +1,7 @@
 package main
 
-import "github.com/martishin/leetcode/src/construct_binary_tree_from_inorder_and_postorder_traversal_106"
+import "github.com/martishin/leetcode/src/search_in_rotated_sorted_array_33"
 
 func main() {
-	construct_binary_tree_from_inorder_and_postorder_traversal_106.TestMap()
+	search_in_rotated_sorted_array_33.Test()
 }

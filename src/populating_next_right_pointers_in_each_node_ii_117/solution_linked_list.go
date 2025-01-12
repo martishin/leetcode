@@ -1,6 +1,6 @@
 package populating_next_right_pointers_in_each_node_ii_117
 
-func connect(root *Node) *Node {
+func connectLL(root *Node) *Node {
 	if root == nil {
 		return root
 	}
