@@ -1,8 +1,8 @@
 #![allow(dead_code)]
-mod longest_common_prefix_14 {
+mod first_missing_positive_41 {
     pub mod solution;
 }
 
 fn main() {
-    longest_common_prefix_14::solution::test();
+    first_missing_positive_41::solution::test();
 }
