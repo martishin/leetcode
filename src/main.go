@@ -1,7 +1,9 @@
 package main
 
-import "github.com/martishin/leetcode/src/search_in_rotated_sorted_array_33"
+import (
+	"github.com/martishin/leetcode/src/rotate_image_48"
+)
 
 func main() {
-	search_in_rotated_sorted_array_33.Test()
+	rotate_image_48.Test()
 }
