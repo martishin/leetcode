@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/martishin/leetcode/src/rotate_image_48"
+	"github.com/martishin/leetcode/src/maximize_distance_to_closest_person_849"
 )
 
 func main() {
-	rotate_image_48.Test()
+	maximize_distance_to_closest_person_849.Test()
 }
