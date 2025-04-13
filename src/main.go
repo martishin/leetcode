@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/martishin/leetcode/src/maximize_distance_to_closest_person_849"
+	"github.com/martishin/leetcode/src/line_reflection_356"
 )
 
 func main() {
-	maximize_distance_to_closest_person_849.Test()
+	line_reflection_356.Test()
 }
