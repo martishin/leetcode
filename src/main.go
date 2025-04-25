@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/martishin/leetcode/src/maximal_rectangle_85"
+	"github.com/martishin/leetcode/src/max_points_on_a_line_149"
 )
 
 func main() {
-	maximal_rectangle_85.TestDP()
+	max_points_on_a_line_149.TestN2()
 }
