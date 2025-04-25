@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/martishin/leetcode/src/permutations_47"
+	"github.com/martishin/leetcode/src/subsets_78"
 )
 
 func main() {
-	permutations_47.Test()
+	subsets_78.TestBacktrack()
 }
