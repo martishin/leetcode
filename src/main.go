@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/martishin/leetcode/src/largest_rectangle_in_histogram_84"
+	"github.com/martishin/leetcode/src/maximal_rectangle_85"
 )
 
 func main() {
-	largest_rectangle_in_histogram_84.TestSegTree()
+	maximal_rectangle_85.TestDP()
 }
