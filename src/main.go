@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/martishin/leetcode/src/max_points_on_a_line_149"
+	"github.com/martishin/leetcode/src/permutations_47"
 )
 
 func main() {
-	max_points_on_a_line_149.TestN2()
+	permutations_47.Test()
 }
