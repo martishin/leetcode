@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/martishin/leetcode/src/next_permutation_31"
+	"github.com/martishin/leetcode/src/ipo_502"
 )
 
 func main() {
-	next_permutation_31.Test()
+	ipo_502.Test()
 }
