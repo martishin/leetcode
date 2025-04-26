@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/martishin/leetcode/src/ipo_502"
+	"github.com/martishin/leetcode/src/max_stack_716"
 )
 
 func main() {
-	ipo_502.Test()
+	max_stack_716.Test()
 }
