@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/martishin/leetcode/src/max_stack_716"
+	"github.com/martishin/leetcode/src/isomorphic_strings_205"
 )
 
 func main() {
-	max_stack_716.Test()
+	isomorphic_strings_205.Test()
 }
