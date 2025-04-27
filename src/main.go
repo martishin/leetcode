@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/martishin/leetcode/src/dot_product_of_two_sparse_vectors_1570"
+	"github.com/martishin/leetcode/src/best_time_to_buy_and_sell_stock_iv_188"
 )
 
 func main() {
-	dot_product_of_two_sparse_vectors_1570.Test()
+	best_time_to_buy_and_sell_stock_iv_188.Test()
 }
