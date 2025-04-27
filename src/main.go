@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/martishin/leetcode/src/insert_delete_get_random_380"
+	"github.com/martishin/leetcode/src/dot_product_of_two_sparse_vectors_1570"
 )
 
 func main() {
-	insert_delete_get_random_380.Test()
+	dot_product_of_two_sparse_vectors_1570.Test()
 }
