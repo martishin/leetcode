@@ -1,9 +1,7 @@
 package main
 
-import (
-	"github.com/martishin/leetcode/src/house_robber_198"
-)
+import "github.com/martishin/leetcode/src/lru_cache_146"
 
 func main() {
-	house_robber_198.TestDpNM()
+	lru_cache_146.Test()
 }
