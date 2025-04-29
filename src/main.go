@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/martishin/leetcode/src/word_search_ii_212"
+	"github.com/martishin/leetcode/src/house_robber_198"
 )
 
 func main() {
-	word_search_ii_212.Test()
+	house_robber_198.TestDpNM()
 }

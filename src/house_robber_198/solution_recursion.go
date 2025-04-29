@@ -2,19 +2,19 @@ package house_robber_198
 
 import "fmt"
 
-func maxRob(nums []int, cache map[int]int, idx int) int {
+func maxRob(nums []int, idx int, cache []int) int {
 	if idx >= len(nums) {
 		return 0
 	}
 
-	value, found := cache[idx]
-	if found {
-		return value
+	found := cache[idx]
+	if found != -1 {
+		return found
 	}
 
 	result := max(
-		nums[idx]+maxRob(nums, cache, idx+2),
-		maxRob(nums, cache, idx+1),
+		nums[idx]+maxRob(nums, idx+2, cache),
+		maxRob(nums, idx+1, cache),
 	)
 
 	cache[idx] = result
@@ -22,9 +22,12 @@ func maxRob(nums []int, cache map[int]int, idx int) int {
 }
 
 func robRecursion(nums []int) int {
-	cache := make(map[int]int)
+	cache := make([]int, len(nums))
+	for i := range len(cache) {
+		cache[i] = -1
+	}
 
-	return maxRob(nums, cache, 0)
+	return maxRob(nums, 0, cache)
 }
 
 func TestRecursion() {
