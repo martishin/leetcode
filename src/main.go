@@ -1,7 +1,9 @@
 package main
 
-import "github.com/martishin/leetcode/src/lru_cache_146"
+import (
+	"github.com/martishin/leetcode/src/binary_tree_vertical_order_traversal_314"
+)
 
 func main() {
-	lru_cache_146.Test()
+	binary_tree_vertical_order_traversal_314.Test()
 }
