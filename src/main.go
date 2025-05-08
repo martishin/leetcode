@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/martishin/leetcode/src/binary_tree_vertical_order_traversal_314"
+	"github.com/martishin/leetcode/src/optimize_water_distribution_in_a_village_1168"
 )
 
 func main() {
-	binary_tree_vertical_order_traversal_314.Test()
+	optimize_water_distribution_in_a_village_1168.Test()
 }
