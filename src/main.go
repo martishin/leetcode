@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/martishin/leetcode/src/random_pick_with_weight_528"
+	"github.com/martishin/leetcode/src/median_of_two_sorted_arrays_4"
 )
 
 func main() {
-	random_pick_with_weight_528.Test()
+	median_of_two_sorted_arrays_4.Test()
 }
